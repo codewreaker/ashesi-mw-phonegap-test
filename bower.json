@@ -1,0 +1,28 @@
+{
+  "name": "jquerymobile",
+  "version": "0.0.1",
+  "description": "Mobile Web Class to Test jquery-mobile",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "mobile"
+  ],
+  "authors": [
+    "Israel Agyeman-Prempeh"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-mobile-bower": "~1.4.5"
+  }
+}

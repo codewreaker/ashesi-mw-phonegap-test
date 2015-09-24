@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="water-fire.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+
+
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right ui-btn-c">
+                <a href="#page1" data-transition="pop" class="ui-btn ui-btn-home ui-icon-home ui-btn-c">Water</a>
+                <a href="#page2" data-transition="pop" class="ui-btn ui-btn-icon-right ui-icon-arrow-u ui-btn-c">Fire</a>
+                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-search ui-btn-c">Search</a>
+            </div>
+            <h6>Water Reader</h6>
+        </div>
+        <div role="main" class="ui-content">
+            <form data-theme="a">
+
+                <fieldset data-role="collapsible" data-collapsed="false">
+
+                    <legend>Reading Input</legend>
+
+                    <label for="meterReading">Reading</label>
+
+                    <input type="text" id="meterReading" placeholder="Text input" placeholder="input reading here">
+
+
+                    <label for="selectedMeter" class="select">Meter
+                    </label>
+                    <select data-mini="true" id="selectedMeter">
+
+                        <option value="hostel">hostel</option>
+
+                        <option value="dufie">dufie</option>
+
+                        <option value="columbiana">columbiana</option>
+
+                        <option value="admin">admin</option>
+
+                        <option value="engineering">engineering</option>
+                    </select>
+
+                    <!--- Test Area -->
+                    <div data-role="controlgroup" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">
+                        <div class="ui-controlgroup-controls ">
+                            <div class="ui-checkbox" id="meter-list">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--/ Test Area -->
+
+
+
+
+
+                    <div data-role="controlgroup">
+                        <input type="checkbox" name="checkbox-1-a" id="checkbox-1-a">
+                        <label for="checkbox-1-a">One</label>
+
+                        <input type="checkbox" name="checkbox-2-a" id="checkbox-2-a">
+                        <label for="checkbox-2-a">Two</label>
+
+                        <input type="checkbox" name="checkbox-3-a" id="checkbox-3-a">
+                        <label for="checkbox-3-a">Three</label>
+                    </div>
+                    <div>
+                        <a class="ui-btn ui-icon-action ui-btn-icon-left ui-shadow-icon ui-btn-a" id="saveReading">Save</a>
+                    </div>
+
+                </fieldset>
+            </form>
+            <span class="message">
+                Here
+            </span>
+        </div>
+        <div data-role="footer">
+            <h6> Israel Agyeman-Prempeh® 2015</h6>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2" data-theme="c">
+        <div data-role="header">
+            <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right ui-btn-c">
+                <a href="#page1" data-transition="pop" class="ui-btn ui-btn-home ui-icon-home ui-btn-c">Water</a>
+                <a href="#page2" data-transition="pop" class="ui-btn ui-btn-icon-right ui-icon-arrow-u ui-btn-c">Fire</a>
+                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-search ui-btn-c">Search</a>
+            </div>
+            <h6>Fire Reader</h6>
+        </div>
+        <div role="main" class="ui-content">
+            <div data-role="collapsible" data-collapsed="false">
+
+                <h4>Heading</h4>
+                <ul data-role="listview">
+
+                    <li><a href="#">List item 1</a></li>
+
+                    <li><a href="#">List item 2</a></li>
+
+                    <li><a href="#">List item 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="footer">
+            <h6> Israel Agyeman-Prempeh® 2015</h6>
+        </div>
+    </div>
+</body>
+
+</html>

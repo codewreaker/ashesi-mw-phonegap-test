@@ -1,0 +1,18 @@
+*{
+    font-family: Helvetica, "Opens sans";
+    font-weight: 100;
+}
+
+.ui-content h2{
+    text-align: center;
+}
+
+[data-role="header"] h6{
+    position: relative;
+    right: 35%;
+}
+
+
+
+
+
