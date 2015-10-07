@@ -1,3 +1,4 @@
+$.support.cors=true;
  $(function () {
 
      addReading();
