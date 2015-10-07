@@ -13,5 +13,7 @@
         <gap:plaGorm name="ios" />
         <gap:plaGorm name="android" />
         <gap:plaGorm name="winphone" />
+        <access origin="*"/>
+        <access origin="http://cs.ashesi.edu.gh"/>
         <preference name="orientaIon" value="landscape" />
     </widget>
