@@ -42,7 +42,7 @@ $("#meter-list").append('<label for="'+data[i].meter_id+'" class="ui-btn ui-corn
      function sendRequest(dataString) {
          var obj = $.ajax({
              type: "POST",
-             url: "water.php",
+             url: "http://cs.ashesi.edu.gh/~csashesi/class2016/prophet-agyeman-prempeh/mobile_web_server/water.php",
              data: dataString,
              async: false,
              cache: false
