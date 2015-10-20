@@ -1,6 +1,5 @@
-$.support.cors=true;
- $(function () {
 
+ $(function () {
      addReading();
      fetchData();
 
